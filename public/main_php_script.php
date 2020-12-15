@@ -5,15 +5,8 @@
 
 class Server {
     function __construct($post,$get,$pdo) {
-          
-    
-          
         $path = "DB/base.db";
         $this->pdo = new PDO("sqlite:".$path);
-   
-
-
- 
         $this->dataPost =json_decode(json_encode($post), true);
         
         $this->dataGet = $get;

@@ -7,7 +7,7 @@ body,html{
   box-sizing: border-box;
   
   font-family: serif,Arial;
-  background: url('../../public/components/images/bg.jpg') no-repeat ;
+  background: url('../../public/components/images/bg.jpeg') no-repeat ;
  
   background-size: 100%;
   background-color: rgb(0, 0, 0);
@@ -82,7 +82,7 @@ body,html{
     margin-top:10px;
     border:1px solid black;
     padding: 10px;
-    background-color: rgba(20, 16, 16, 0.741);
+    background-color: rgba(38, 38, 38, 0.926);
 }
 .content__statistic_row{
     width:40%;
@@ -90,7 +90,7 @@ body,html{
     margin-top:5px;
     border:1px solid black;
     padding: 17px;
-    background-color: rgba(83, 73, 73, 0.741);
+    background-color: rgba(31, 31, 31, 0.905);
    
 }
 .content__container{
@@ -98,13 +98,14 @@ body,html{
     float: left;
 }
 .songContainer{
-    overflow: hidden;
+    overflow: auto;
     padding: 10px;
     margin:20px;
     width:28%;
     float:left;
     height:230px;
-    background-color: rgba(20, 16, 16, 0.959);
+    background-color: rgba(38, 36, 36, 0.959);
+
     color:rgb(202, 181, 181);
     padding-bottom: 20px;
 }
